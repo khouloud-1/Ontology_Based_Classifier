@@ -42,7 +42,7 @@ def clean_text(text):
 
     # Lemmatization
     for word in text_tokens:
-        output_text_tokens.append(wordnet_lemmatizer.lemmatize(word, pos="v"))
+        output_text_tokens.append(wordnet_lemmatizer.lemmatize(word, pos="n"))
   
     return output_text_tokens
 
